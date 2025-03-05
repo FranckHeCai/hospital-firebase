@@ -16,6 +16,7 @@ function App() {
   }, [patients])
   return (
     <div>
+      
       <Header />
       <main className='mt-20'>
         <BrowserRouter>
