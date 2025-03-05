@@ -3,7 +3,7 @@ import { createItem } from "../services/api";
 import { useNavigate } from "react-router-dom";
 
 const Create = () => {
-  const [created, setCreated] = useState(true)
+  const [created, setCreated] = useState(false)
   const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
